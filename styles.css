@@ -27,6 +27,13 @@ p {
     margin: 0px;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px; /* Slightly rounded corners */
+    object-fit: cover;
+}
+
 .pretty-button {
     background-color: #000000; /* Primary color */
     color: white; /* Text color */
@@ -45,6 +52,11 @@ p {
 TODO 4: Change the color of Post button on hover as a visual cue to the user 
 Ensure that the text is still readable after the color has been changed.
 */
+
+/* Change the color of Post button on hover */
+.pretty-button:hover {
+    background-color: #444444; /* Slightly lighter black for hover */
+}
 
 .navbar {
     display: flex;
